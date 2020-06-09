@@ -1,7 +1,7 @@
 {
-  "name": "best9",
+  "name": "ts-lambda-puppeteer",
   "version": "1.0.0",
-  "description": "Instagram Best9 Project",
+  "description": "ts-lambda-puppeteer",
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
