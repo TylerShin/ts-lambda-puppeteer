@@ -1,7 +1,7 @@
 {
   "name": "best9",
   "version": "1.0.0",
-  "description": "Serverless webpack example using Typescript",
+  "description": "Instagram Best9 Project",
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,13 +12,10 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.53",
     "@types/node": "^14.0.12",
-    "fork-ts-checker-webpack-plugin": "^4.1.6",
-    "serverless-webpack": "^5.3.2",
-    "ts-loader": "^7.0.5",
-    "typescript": "^3.9.5",
-    "webpack": "^4.43.0",
-    "webpack-node-externals": "^1.7.2"
+    "serverless-offline": "^6.4.0",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^3.9.5"
   },
-  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "author": "Tyler Shin",
   "license": "MIT"
 }

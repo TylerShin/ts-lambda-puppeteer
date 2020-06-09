@@ -1,20 +1,13 @@
 {
   "compilerOptions": {
-    "lib": ["es2017"],
-    "removeComments": true,
-    "moduleResolution": "node",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
     "sourceMap": true,
-    "target": "es2017",
-    "outDir": "lib"
-  },
-  "include": ["./**/*.ts"],
-  "exclude": [
-    "node_modules/**/*",
-    ".serverless/**/*",
-    ".webpack/**/*",
-    "_warmup/**/*",
-    ".vscode/**/*"
-  ]
+    "allowJs": true,
+    "target": "es5",
+    "moduleResolution": "node",
+    "lib": ["es2015"],
+    "outDir": ".build",
+    "rootDir": "./"
+  }
 }
