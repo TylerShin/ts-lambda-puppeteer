@@ -7,11 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "chrome-aws-lambda": "^3.1.1",
+    "puppeteer-core": "^3.1.0",
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.53",
     "@types/node": "^14.0.12",
+    "@types/puppeteer-core": "^2.0.0",
+    "puppeteer": "^3.1.0",
     "serverless-offline": "^6.4.0",
     "serverless-plugin-typescript": "^1.1.9",
     "typescript": "^3.9.5"

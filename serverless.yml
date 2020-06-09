@@ -11,6 +11,7 @@ provider:
   name: aws
   runtime: nodejs12.x
   region: ap-northeast-2
+  memorySize: 2048
   apiGateway:
     minimumCompressionSize: 1024 # Enable gzip compression for responses > 1 KB
   environment:
